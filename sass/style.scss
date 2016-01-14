@@ -1,0 +1,237 @@
+@import "variables";
+
+#main {
+	width: 100%;
+	margin: 0;
+	font-family: $fontContent;
+	font-size: 1em;
+	@media screen and (min-width:540px){
+		font-size: 1.25em;
+	}
+}
+.main-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: $white;
+	padding: 1em;
+	color: $black;
+	@media screen and (max-width: 786px){
+		padding: 0;
+	}
+}
+section {
+	padding: 1em;
+}
+.section-title {
+	font-family: $fontTitle;
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - INGREDIENTS
+.tab-container {
+	width: 812px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	@media screen and (max-width: 870px){
+		width: 100%;
+	}
+}
+ul.tabs {
+	margin: 0 auto;
+	padding: 0px;
+	list-style: none;
+	display: table;
+  	table-layout: fixed;
+	width: 100%;
+
+
+}
+ul.tabs li {
+	text-align: center;
+	font-family: $fontTitle;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $white;
+	display: table-cell;
+ 	width: auto;
+	cursor: pointer;
+	padding: 25px 0;
+	position: relative;
+	@media screen and (min-width: 871px){
+		font-size: 18px;
+	}
+}
+.cooling {
+	background: $aqua;
+}
+.warming {
+	background: $warming;
+}
+.unscented {
+	background: $lightGray;
+}
+.non-cannabis {
+	background: $darkGray;
+}
+ul.tabs li.current {
+	&:before {
+		font-family: 'fontawesome';
+		content: '\f0d7';
+		font-size: 18px;
+		position: absolute;
+		bottom: 3px;
+		left: 45%;
+		@media screen and (min-width: 660px){
+			left: 48%;
+		}
+	}
+}
+.tab-content {
+	display: none;
+	padding: 15px;
+	text-align: center;
+	img {
+		margin: 0 auto;
+	}
+}
+#tab-cooling {
+	background: $aqua;
+}
+#tab-warming {
+	background: $warming;
+}
+#tab-unscented {
+	background: $lightGray;
+}
+#tab-non-cannabis {
+	background: $darkGray;
+}
+.tab-content.current {
+	display: inherit;
+}
+.learn-more {
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	text-align: center;
+	background: $green;
+	color: $white;
+	font-family: $fontTitle;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 5px;
+	&:hover {
+		background: darken($green, 5%);
+		color: darken($white, 5%);
+		text-decoration: none;
+	}
+}// .learn-more
+
+// - - - - - - - - - - - - - - - - - - - - - - SAMPLE PACK
+#sample {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid $green;
+	@media screen and (max-width: 768px){
+		width:100%;
+	}
+}
+.sample-desc {
+	width:60%;
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+	@media screen and (max-width:520px){
+		display: block;
+		width: 100%;
+	}
+}
+.sample-img {
+	display: inline-block;
+	width: 39%;
+	text-align: center;
+	vertical-align: top;
+	@media screen and (max-width:520px){
+		display: block;
+		width: 100%;
+	}
+	img {
+		margin: 0 auto;
+		transform: scale(.75,.75);
+		@media screen and (min-width:521px){
+			display: block;
+			transform: scale(.95,.95);
+		}
+	}// img
+	.purchase {
+		display: inline-block;
+		margin: 1em auto;
+		padding: 15px;
+		border-radius: 5px;
+		background: $aqua;
+		color: $white;
+		font-family: $fontTitle;
+		text-transform: uppercase;
+	}
+}// .sample-img
+
+// - - - - - - - - - - - - - - - - - - - - - - PRICING
+#pricing {
+	background: $green;
+	background-image: url('images/pricing_bg.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	text-align: center;
+	.section-title {
+		color: $white;
+	}
+	p {
+		color: $white;
+		font-size: 18px;
+		margin: 1em auto;
+	}
+}
+.tg  {
+	width:812px;
+	margin: 0 auto;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-color: $white;
+	@media screen and (max-width: 870px){
+		width: 100%;
+	}
+}
+.tg td{
+	font-family:$fontContent, sans-serif;
+	font-size:18px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg th{
+	font-family:$fontTitle, sans-serif;
+	font-size:18px;
+	font-weight:300;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg .tg-ojpq{
+	font-weight:bold;
+	background-color:#ffffff;
+	color:#8fb168;
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-v2pp{
+	background-color:#8fb168;
+	color:#ffffff;
+	text-align:center;
+	vertical-align:top
+}
