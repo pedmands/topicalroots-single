@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<section id="ingredients">
 		<h1 class="section-title">Simple Organic Ingredients, Amazing Results.</h1>
-		<p>Click on a product name below to learn more about its ingredients.</p>
+		<p>Click on a product name below to view its label.</p>
 
 		<div class="tab-container">
 
@@ -50,7 +50,6 @@ get_header(); ?>
 			<a class="purchase" href="paypal">Purchase A Pack!</a>
 		</div>
 	</section><!-- sample -->
-
 </div><!-- main-wrapper -->
 
 <section id="pricing">
@@ -137,6 +136,62 @@ get_header(); ?>
 		</div>
 	</section><!-- uses -->
 </div><!-- main-wrapper (2) -->
+
+<section id="story">
+		<h1 class="section-title">The Topical Roots Story</h1>
+
+		<div class="story-box">
+			<div class="story-cell">
+				<p>Topical Roots was founded by a Maine medicinal cannabis patient in order to alleviate chronic pain symptoms without causing psychoactive effects. A passion for biochemistry and the healing powers of cannabis essential oil lead this scientist, patient, and company on a journey to bring to market a highly-effective and versatile organic cannabis topical.</p>
+				<p>Topical Root’s pain oil is a non- psychoactive solution that targets pain at its source. With little-to-no side effects, our topical pain oil has redefined cannabis as a powerful and irreplaceable herb in our modern apothecary. Our product is scientifically formulated for daily use and/or widespread applications, including massage! </p>
+			</div><!-- story-cell -->
+			<div class="story-cell">
+				<p>It’s as simple as rubbing the oil where it hurts. From bumps and bruises, to arthritis and joint pain, to traumatic injury and neuropathic pain, these products could reduce or eliminate your symptoms. For those with skin conditions such as eczema, psoriasis, herpes simplex, acne, fungal and/or viral rashes; these products could reduce or eliminate your condition.</p>
+				<a href="story" class="read-more">Read More <i class="fa fa-chevron-right"></i></a>
+			</div><!-- story-cell -->
+	</div><!-- story-box -->
+</section>
+
+<div class="main-wrapper">
+	<section id="faq">
+		<h1 class="section-title">FAQs</h1>
+		<dl id="faqs">
+			<dt>Do I need to be a registered patient to purchase TR pain oil?</dt>
+		  	<dd>You must be a registered patient in ME or another state that has medicinal cannabis. ME has a reciprocity law that allows ME caregivers and dispensaries to honor out of state medicinal cannabis licenses. You must have your designation card if you are a ME patient. You must also have a valid license with you to validate your certification. One extra point! Out-of-state medical cannabis patients coming to Maine can go online to Maine DHHS Medical Marijuana Program and request the paperwork required for your doctor to complete before you are legally able make a medical cannabis purchase in Maine. For more information or to have questions answered, please contact us.</dd>
+		 
+		  	<dt>Does TR pain oil work well for those with sensitive skin?</dt>
+		  	<dd>TR pain oil is formulated to be compatible with many skin types. That said, please apply a few drops before applying a larger amount. We also offer an unscented pain oil!</dd>
+		 
+		  	<dt>Can I enhance the effect of TR pain oil?</dt>
+		  	<dd>If you would like to get the most out of your pain oil apply it where it hurts after you take a warm shower and/or before you go to bed. This allows for maximum absorption and therapeutic effects.</dd>
+		
+			<dt>Do the effects of TR pain oil diminish after using the product for a while?</dt>
+			<dd>Your body will “learn” to use the cannabis essential oil as your body builds an increased number of CB2 receptors where you apply the pain oil. This happens at the cellular level! Most users have actually experienced results consistently. There are those who have experienced greater results over time. No users have experienced a decrease in effectiveness over time. </dd>
+
+			<dt>How long does TR pain oil remain aromatic?</dt>
+			<dd>Although pleasant, the high quality organic essential oils in TR cannabis pain oil dissipate over 10-20 minutes and are nearly gone from the surface of the skin within a half hour. This allows you to get the relief you need without having to stink up the office or nauseate your family at the dinner table.</dd>
+
+			<dt>Can I have an allergic reaction to TR pain oil?</dt>
+			<dd>While no negative skin reactions have occurred, those who are concerned about a possible allergic reaction should talk to their doctor before trying this product. Botanical oils in general, although highly diluted in this product, can cause allergic reactions in individuals. TR took this into careful consideration and even consulted leading botanical and skincare experts when formulating this product. We also offer an unscented pain oil!</dd>
+
+			<dt>Who assures the quality of TR pain oil?</dt>
+			<dd>All TR pain oil undergoes thorough independent testing by Proverde Labs, LLC out of Portland Maine. </dd>
+
+			<dt>What strains are used in TR pain oil?</dt>
+			<dd>TR only uses organic hybrid genetics to maintain the consistency of our product. Specific genetics can be arranged with prior notice. </dd>
+
+			<dt>How does TR get the cannabis oil into the product?</dt>
+			<dd>TRs uses an entirely organic proprietary process to extract our cannabis essential oils. This extract, or “absolute”, is then infused into the carrier oil base. These proprietary processes will enable our company to stay ahead of competitors that are sure to copycat our products in the future. </dd>
+
+			<dt>Does TR make CBD products?</dt>
+			<dd>Not currently, but this will be coming! TR is currently seeking an organic CBD partner that meets our high quality standards. Stay tuned. </dd>
+
+			<dt>Does TR pain oil show up on a drug test?</dt>
+			<dd>No positive reports have come to light, but I would consult your physician if you have a related concern. More literature will be posted soon to fully answer this question.</dd>
+		</dl>
+	</section><!-- faqs -->
+
+</div><!-- main-wrapper (3) -->
 
 </main><!-- #main -->
 </div><!-- #primary -->
