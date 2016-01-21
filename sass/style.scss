@@ -14,9 +14,11 @@
 	margin: 0 auto;
 	background: $white;
 	padding: 1em;
+	padding-bottom: 50px;
 	color: $black;
 	@media screen and (max-width: 786px){
 		padding: 0;
+		padding-bottom: 5px;
 	}
 }
 section {
@@ -135,7 +137,9 @@ ul.tabs li.current {
 // - - - - - - - - - - - - - - - - - - - - - - SAMPLE PACK
 #sample {
 	width: 80%;
-	margin: 25px auto;
+	margin: 0 auto;
+
+	margin-top:25px;
 	border: 1px solid $green;
 	border-radius: 10px;
 	@media screen and (max-width: 768px){
@@ -401,6 +405,11 @@ ul.tabs li.current {
 }// #story
 
 // - - - - - - - - - - - - - - - - - - - - - - FAQs
+#faq {
+	.section-title {
+		text-align: center;
+	}
+}
 #faqs dt, #faqs dd { 
 	padding: 0; 
 }

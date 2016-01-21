@@ -142,7 +142,7 @@ get_header(); ?>
 
 		<div class="story-box">
 			<div class="story-cell">
-				<p>Topical Roots was founded by a Maine medicinal cannabis patient in order to alleviate chronic pain symptoms without causing psychoactive effects. A passion for biochemistry and the healing powers of cannabis essential oil lead this scientist, patient, and company on a journey to bring to market a highly-effective and versatile organic cannabis topical.</p>
+				<p>Topical Roots was founded by a Maine medicinal cannabis patient in order to alleviate chronic pain symptoms without causing psychoactive effects. A passion for biochemistry and the healing powers of cannabis essential oil led this scientist, patient, and company on a journey to bring to market a highly-effective and versatile organic cannabis topical.</p>
 				<p>Topical Root’s pain oil is a non- psychoactive solution that targets pain at its source. With little-to-no side effects, our topical pain oil has redefined cannabis as a powerful and irreplaceable herb in our modern apothecary. Our product is scientifically formulated for daily use and/or widespread applications, including massage! </p>
 			</div><!-- story-cell -->
 			<div class="story-cell">
@@ -181,7 +181,7 @@ get_header(); ?>
 			<dd>TR only uses organic hybrid genetics to maintain the consistency of our product. Specific genetics can be arranged with prior notice. </dd>
 
 			<dt>How does TR get the cannabis oil into the product?</dt>
-			<dd>TRs uses an entirely organic proprietary process to extract our cannabis essential oils. This extract, or “absolute”, is then infused into the carrier oil base. These proprietary processes will enable our company to stay ahead of competitors that are sure to copycat our products in the future. </dd>
+			<dd>TRs uses an entirely organic proprietary process to extract our cannabis essential oils. This extract, or “absolute,” is then infused into the carrier oil base. These proprietary processes will enable our company to stay ahead of competitors that are sure to copycat our products in the future. </dd>
 
 			<dt>Does TR make CBD products?</dt>
 			<dd>Not currently, but this will be coming! TR is currently seeking an organic CBD partner that meets our high quality standards. Stay tuned. </dd>
