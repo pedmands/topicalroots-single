@@ -138,18 +138,24 @@ get_header(); ?>
 </div><!-- main-wrapper (2) -->
 
 <section id="story">
-		<h1 class="section-title">The Topical Roots Story</h1>
-
-		<div class="story-box">
-			<div class="story-cell">
-				<p>Topical Roots was founded by a Maine medicinal cannabis patient in order to alleviate chronic pain symptoms without causing psychoactive effects. A passion for biochemistry and the healing powers of cannabis essential oil led this scientist, patient, and company on a journey to bring to market a highly-effective and versatile organic cannabis topical. Topical Root’s body oil is a non-psychoactive solution that targets pain at its source. With possibly no side effects, our topical body oil redefines cannabis as a powerful and irreplaceable herb in our modern apothecary.</p>
-				<p>Topical Root’s body oil is scientifically formulated for daily use and/or widespread application. This includes massage! It’s as simple as rubbing the oil where it hurts. From bumps and bruises, to arthritis and joint pain, to traumatic injury and neuropathic pain, Topical Roots body oil could reduce or eliminate your symptoms. For those with skin conditions such as eczema, psoriasis, herpes simplex, acne, fungal and/or viral rashes, Topical Roots body oil could reduce or eliminate your condition.</p>
-			</div><!-- story-cell -->
-			<div class="story-cell">
-				<p>At Topical Roots, our secret is using only the highest quality ingredients on the market. Organic, expeller-pressed, sesame, hempseed, almond, and jojoba oils comprise the base of our body oils. Your skin produces oils naturally, and readily absorbs our base blend with delight. Our organic proprietary essential oil blends enhance the absorption and effectiveness of arguably the most medicinally potent ingredient, the organic essential oil of cannabis sativa.</p>
-				<a href="story" class="read-more">Read More <i class="fa fa-chevron-right"></i></a>
-			</div><!-- story-cell -->
-	</div><!-- story-box -->
+	<?php 
+					$query = new WP_query('pagename=the-topical-roots-story');
+					$post_id = $query->queried_object->ID;
+					// The Loop
+					if ( $query->have_posts() ) {
+						while ( $query->have_posts() ) {
+							$query->the_post();
+							echo '<h2 class="section-title">';
+							the_title();
+							echo '</h2>';
+							echo '<div class="entry-content">';
+							the_content('Read more <i class="fa fa-angle-double-right"></i>');
+							echo '</div>';
+						}// while
+					} // if
+					
+					wp_reset_postdata();
+					?>
 </section>
 
 <div class="main-wrapper">
