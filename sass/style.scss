@@ -65,18 +65,123 @@ ul.tabs li {
 		font-size: 18px;
 	}
 }
+// ----------------------------------- COOLING ---
 .cooling {
 	background: $aqua;
+}// .cooling
+#cooling dt {
+	text-transform: uppercase;
+	color: $white;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	background: darken($aqua, 15%);
+	&:after {
+		font-family: 'fontawesome';
+		content: '\f0da';
+		margin-left: 10px;
+		color: $white;
+	}
+}// #cooling dt
+#cooling .expanded { 
+	&:after {
+		font-family: 'fontawesome';
+		content: '\f0d7';
+		margin-left: 6px;
+	}
+}// #cooling expanded
+#cooling dd {
+	margin: 0;
 }
+.cooling-table {
+	th {
+		background: darken($aqua, 15%);
+		text-align: center;
+	}
+}
+// ------------------------------------ WARMING --
 .warming {
 	background: $warming;
 }
+#warming dt {
+	text-transform: uppercase;
+	color: $white;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	background: darken($warming, 15%);
+	&:after {
+		font-family: 'fontawesome';
+		content: '\f0da';
+		margin-left: 10px;
+		color: $white;
+	}
+}// #warming dt
+#warming .expanded { 
+	&:after {
+		font-family: 'fontawesome';
+		content: '\f0d7';
+		margin-left: 6px;
+	}
+}// #warming expanded
+#warming dd {
+	margin: 0;
+}
+.warming-table {
+	th {
+		background: darken($warming, 15%);
+		text-align: center;
+	}
+}
+// ---------------------------------- UNSCENTED --
 .unscented {
 	background: $lightGray;
 }
-.non-cannabis {
-	background: $darkGray;
+#unscented dt {
+	text-transform: uppercase;
+	color: $white;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	background: lighten($charcoal, 20%);
+	&:after {
+		font-family: 'fontawesome';
+		content: '\f0da';
+		margin-left: 10px;
+		color: $white;
+	}
+}// #unscented dt
+#unscented .expanded { 
+	&:after {
+		font-family: 'fontawesome';
+		content: '\f0d7';
+		margin-left: 6px;
+	}
+}// #unscented expanded
+#unscented dd {
+	margin: 0;
 }
+.unscented-table {
+	th {
+		background: lighten($charcoal, 20%);
+		text-align: center;
+	}
+}
+
+.ingredient-content{
+	padding: 10px;
+}
+.cannabis-table {
+	th {
+		background: $green;
+		text-align: center;
+	}
+}
+
+// --------------------- TAB SETUP --
 ul.tabs li.current {
 	&:before {
 		font-family: 'fontawesome';
@@ -116,23 +221,6 @@ ul.tabs li.current {
 		padding: 10px 0;
 	}
 }
-.learn-more {
-	display: block;
-	margin: 0 auto;
-	width: 350px;
-	text-align: center;
-	background: $green;
-	color: $white;
-	font-family: $fontTitle;
-	text-transform: uppercase;
-	padding: 15px;
-	border-radius: 5px;
-	&:hover {
-		background: darken($green, 5%);
-		color: darken($white, 5%);
-		text-decoration: none;
-	}
-}// .learn-more
 
 // - - - - - - - - - - - - - - - - - - - - - - SAMPLE PACK
 #sample {
@@ -195,7 +283,7 @@ ul.tabs li.current {
 			color: darken($white, 5%);
 			text-decoration: none;
 		}
-	}
+	}// .purchase
 }// .sample-img
 
 // - - - - - - - - - - - - - - - - - - - - - - PRICING
@@ -208,8 +296,13 @@ ul.tabs li.current {
     background-attachment: fixed;
 	width: 100%;
 	text-align: center;
+	h4 {
+		color: $white;
+		text-shadow: 2px 2px $charcoal;
+	}
 	.section-title {
 		color: $white;
+		text-shadow: 2px 2px $charcoal;
 	}
 	p {
 		color: $white;
@@ -222,7 +315,7 @@ ul.tabs li.current {
 	margin: 0 auto;
 	border-collapse:collapse;
 	border-spacing:0;
-	border-color: $white;
+	border-color: $black;
 	@media screen and (max-width: 870px){
 		width: 100%;
 	}
@@ -230,9 +323,10 @@ ul.tabs li.current {
 .tg td{
 	font-family:$fontContent, sans-serif;
 	font-size:18px;
-	padding:25px 5px;
+	padding: 5px;
 	border-style:solid;
 	border-width:1px;
+	border-color: $charcoal;
 	overflow:hidden;
 	word-break:normal;
 }
@@ -240,25 +334,68 @@ ul.tabs li.current {
 	font-family:$fontTitle, sans-serif;
 	font-size:18px;
 	font-weight:300;
-	padding:25px 5px;
+	padding: 5px;
 	border-style:solid;
 	border-width:1px;
+	border-color: $charcoal;
 	overflow:hidden;
 	word-break:normal;
 }
+.tg .tg-title {
+	background: rgba($charcoal, .75);
+	color: $white;
+	border-color: $charcoal;
+}
 .tg .tg-heading{
-	font-weight:bold;
-	background-color:#ffffff;
-	color:#8fb168;
+	background-color:$green;
+	color:$white;
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-heading2{
+	background-color:$aqua;
+	color:$white;
 	text-align:center;
 	vertical-align:top
 }
 .tg .tg-cell{
-	background-color:#8fb168;
+	background-color: lighten($charcoal, 40%);
 	color:#ffffff;
 	text-align:center;
 	vertical-align:top
 }
+.buy-now {
+	display: block;
+	margin: 1em auto;
+	max-width: 50%;
+	padding: 15px;
+	border-radius: 5px;
+	background: $green;
+	color: $white;
+	font-family: $fontTitle;
+	text-transform: uppercase;
+	&:hover {
+		background: darken($green, 5%);
+		color: darken($white, 5%);
+		text-decoration: none;
+	}
+} // .buy-now
+.buy-now2 {
+	display: block;
+	margin: 1em auto;
+	max-width: 50%;
+	padding: 15px;
+	border-radius: 5px;
+	background: $aqua;
+	color: $white;
+	font-family: $fontTitle;
+	text-transform: uppercase;
+	&:hover {
+		background: darken($aqua, 5%);
+		color: darken($white, 5%);
+		text-decoration: none;
+	}
+} // .buy-now2
 
 // - - - - - - - - - - - - - - - - - - - - - - USES
 #uses {
@@ -286,7 +423,7 @@ ul.tabs li.current {
 			font-size: 24px;
 		}
 	}// h2
-	.pain-conditions {
+	.body-conditions {
 		color: red;
 		border-bottom: 2px solid $red;
 	}
@@ -308,7 +445,7 @@ ul.tabs li.current {
 			list-style-type: none;
 			li {
 				@media screen and (min-width:740px){
-					font-size: 1.5em;
+					font-size: 1em;
 				}
 				&:before {
 					display: block;
@@ -325,7 +462,7 @@ ul.tabs li.current {
 				}// &:before
 			}// li
 		}// ul
-		.pain-list {
+		.body-list {
 			li::before {
 				color: $red;
 			}
@@ -354,7 +491,7 @@ ul.tabs li.current {
 		display: block;
 		width: 80%;
 		margin: 15px auto;
-		@media screen and (max-width: 970px){
+		@media screen and (max-width: 760px){
 			width: 100%;
 		}
 	}// .section-title
@@ -367,7 +504,7 @@ ul.tabs li.current {
 		padding-top: 15px;
 		border-bottom: 2px solid $white;
 		border-top: 2px solid $white;
-		@media screen and (max-width: 970px){
+		@media screen and (max-width: 760px){
 			width: 100%;
 		}
 	}// .entry-content
@@ -405,7 +542,7 @@ ul.tabs li.current {
 	font-size: 26px;
 	font-family: $fontTitle;
 	font-weight: 300; 
-	color: #9d9d9d; 
+	color: lighten($charcoal, 20%); 
 	cursor: pointer;
 	margin: 0 0 15px 15px;
 	@media screen and (max-width:540px){

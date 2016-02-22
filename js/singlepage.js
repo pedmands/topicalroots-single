@@ -11,6 +11,26 @@ jQuery(document).ready(function($) {
 		$("#"+tab_id).addClass('current');
 	});
 
+	// More Ingredients Function - Cooling
+	$("#cooling dd").hide();
+    $("#cooling dt").click(function () {
+        $(this).next("#cooling dd").slideToggle(500);
+        $(this).toggleClass("expanded");
+    });
+
+	// More Ingredients Function - Warming
+	$("#warming dd").hide();
+    $("#warming dt").click(function () {
+        $(this).next("#warming dd").slideToggle(500);
+        $(this).toggleClass("expanded");
+    });
+
+    // More Ingredients Function - Unscented
+	$("#unscented dd").hide();
+    $("#unscented dt").click(function () {
+        $(this).next("#unscented dd").slideToggle(500);
+        $(this).toggleClass("expanded");
+    });
 
 	// FAQs function
 	$("#faqs dd").hide();
@@ -18,5 +38,6 @@ jQuery(document).ready(function($) {
         $(this).next("#faqs dd").slideToggle(500);
         $(this).toggleClass("expanded");
     });
+
 
 });
