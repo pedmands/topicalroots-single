@@ -114,46 +114,41 @@ get_header(); ?>
 	<h4> Proudly Serving the Maine Medicinal Cannabis Industry Since 2015</h4>
 	<br/>
 
-	<table class="tg">
-	<tr>
-		<th colspan="2" class="tg-title"><h2>Cannabis-Infused Body Oils</h2></th>
-	</tr>
-	  <tr>
-	    <th class="tg-heading">1 oz Dropper (120 mg*)</th>
-	    <th class="tg-heading">1 oz Dropper (240 mg*)</th>
-	  </tr>
-	  <tr>
-	    <td class="tg-cell">$20 each</td>
-	    <td class="tg-cell">$24 each</td>
-	  </tr>
-	  <tr>
-	  	<th colspan="2" class="tg-title">
+	<div id="cannabis-pricing" class="pricing-chart">
+		<h2>Cannabis-Infused Body Oils</h2>
+		<table class="tg">
+		  <tr>
+		    <th class="tg-heading">1 oz Dropper (120 mg*)</th>
+		    <th class="tg-heading">1 oz Dropper (240 mg*)</th>
+		  </tr>
+		  <tr>
+		    <td class="tg-cell">$20 each</td>
+		    <td class="tg-cell">$24 each</td>
+		  </tr>
+		 </table>
 	  	<p>*mg Phytocannabinoids (m/v)</p>
-	  	<a class="buy-now">Buy Now</a>
+	  	<a id="buy-cannabis" class="buy-now">Buy Now</a>
 	  	<p>Please Contact Us for wholesale pricing</p>
-	  	</th>
-	  </tr>
-	</table>
-	<br/><br/>
-	<table class="tg">
-	<tr>
-		<th class="tg-title"><h2>Non-Cannabis Body Oils</h2></th>
-	</tr>
-	  <tr>
-	    <th class="tg-heading2">1 oz Dropper</th>
-	  </tr>
-	  <tr>
-	    <td class="tg-cell">$12 each</td>
-	  </tr>
-	  <tr>
-	  	<th class="tg-title">
-	  	<a class="buy-now2">Buy Now</a>
+  	</div>
+	  
+  	<div id="non-cannabis-pricing" class="pricing-chart">
+		<h2>Non-Cannabis Body Oils</h2>
+		<table class="tg">
+		  <tr>
+		    <th class="tg-heading2">1 oz Dropper</th>
+		  </tr>
+		  <tr>
+		    <td class="tg-cell">$12 each</td>
+		  </tr>
+	    </table>
+	  	<a id="buy-non-cannabis" class="buy-now">Buy Now</a>
 	  	<p>Please Contact Us for wholesale pricing</p>
-	  	</th>
-	  </tr>
-	</table>
+  	</div>
+	  
+	
 	<h2 class="section-title">Free Delivery!</h2>
-	<h4>There is no charge for deliveries throughout southern Maine with a minimum purchase of $50. Deliveries are made Wednesdays and Sundays 8am-8pm.</h4>
+	<h4>There is no charge for deliveries throughout southern Maine with a minimum purchase of $50.</h4>
+	<h4>Deliveries are made Wednesdays and Sundays 8am-8pm.</h4>
 	
 </section><!-- pricing -->
 

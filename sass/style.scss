@@ -309,9 +309,28 @@ ul.tabs li.current {
 		font-size: 18px;
 		margin: 1em auto;
 	}
+}// #pricing
+.pricing-chart {
+	background: rgba($charcoal, .75);
+	padding: 15px;
+	margin: 25px auto;
+	max-width: 920px;
+	border-radius: 10px;
+	h2 {
+		color: $white;
+		font-family: $fontTitle;
+		margin-bottom: 20px;
+	}
+}// .pricing-chart
+#cannabis-pricing {
+	border: 2px solid $green;
+	margin-top: 0;
+}// #cannabis-pricing
+#non-cannabis-pricing {
+	border: 2px solid $aqua;
 }
 .tg  {
-	width:812px;
+	width:612px;
 	margin: 0 auto;
 	border-collapse:collapse;
 	border-spacing:0;
@@ -341,11 +360,6 @@ ul.tabs li.current {
 	overflow:hidden;
 	word-break:normal;
 }
-.tg .tg-title {
-	background: rgba($charcoal, .75);
-	color: $white;
-	border-color: $charcoal;
-}
 .tg .tg-heading{
 	background-color:$green;
 	color:$white;
@@ -367,35 +381,29 @@ ul.tabs li.current {
 .buy-now {
 	display: block;
 	margin: 1em auto;
-	max-width: 50%;
+	max-width: 40%;
 	padding: 15px;
 	border-radius: 5px;
-	background: $green;
 	color: $white;
 	font-family: $fontTitle;
 	text-transform: uppercase;
 	&:hover {
-		background: darken($green, 5%);
 		color: darken($white, 5%);
 		text-decoration: none;
 	}
 } // .buy-now
-.buy-now2 {
-	display: block;
-	margin: 1em auto;
-	max-width: 50%;
-	padding: 15px;
-	border-radius: 5px;
+#buy-cannabis {
+	background: $green;
+	&:hover {
+		background: darken($green, 5%);
+	}
+}// #buy-cannabis
+#buy-non-cannabis {
 	background: $aqua;
-	color: $white;
-	font-family: $fontTitle;
-	text-transform: uppercase;
 	&:hover {
 		background: darken($aqua, 5%);
-		color: darken($white, 5%);
-		text-decoration: none;
 	}
-} // .buy-now2
+}// #buy-non-cannabis
 
 // - - - - - - - - - - - - - - - - - - - - - - USES
 #uses {
@@ -445,7 +453,7 @@ ul.tabs li.current {
 			list-style-type: none;
 			li {
 				@media screen and (min-width:740px){
-					font-size: 1em;
+					font-size: 1.2em;
 				}
 				&:before {
 					display: block;
@@ -571,3 +579,45 @@ ul.tabs li.current {
 		color: $aqua;
 	}
 }
+footer {
+	.disclaimer {
+		margin: 10px auto;
+		padding: 10px;
+		color: lighten($charcoal,20%);
+		font-style: italic;
+		background: darken($charcoal, 10%);
+	@media screen and (min-width: 530px){
+		max-width: 75%;
+		}
+	}// .disclaimer
+}// footer
+// - - - - - - - - - - - - - - - PATIENT SURVEY - - - -
+.patient-survey {
+	margin: 0 auto;
+	max-width: 75%;
+	@media screen and (max-width:760px){
+		max-width:90%;
+	}
+	textarea {
+		max-height: 100px;
+	}
+	input[type="submit"] {
+		display: block;
+		width: 40%;
+		margin: 0 auto;
+		padding: 15px;
+		border-radius: 5px;
+		background: $green;
+		color: $white;
+		font-family: $fontTitle;
+		font-size: 1em;
+		text-transform: uppercase;
+		box-shadow: none;
+		&:hover {
+			background: darken($green, 5%);
+			color: darken($white, 5%);
+			text-decoration: none;
+			box-shadow: none;
+		}
+		}// input type = submit
+}// .patient-survey
