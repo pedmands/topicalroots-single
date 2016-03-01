@@ -96,17 +96,6 @@ get_header(); ?>
 		</div><!-- tab-container -->
 	</section><!-- ingredients -->
 
-	<section id="sample">
-		<h1 class="section-title">Non-Cannabis Sample Pack</h1>
-		<div class="sample-desc">
-			<p>We have decided to offer a non-medicated variety pack to allow more patients the opportunity to try our product. This includes one 1/3oz Roll-On of the warming and one 1/3oz Roll-On of the cooling formulas. The unscented oil can be included for an additional $5. The unscented oil is also available by itself for $10.</p>
-			<p>This will allow you to try our product without needing to invest any more time or money.  Just wait for your pain oils with anticipation and please fill out our patient survey once you have tried the product!</p>
-		</div>
-		<div class="sample-img">
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/sample.png' ?>" alt="Sample Pack">
-			<a class="purchase" href="paypal">Purchase A Pack!</a>
-		</div>
-	</section><!-- sample -->
 </div><!-- main-wrapper -->
 
 <section id="pricing">

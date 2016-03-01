@@ -222,70 +222,6 @@ ul.tabs li.current {
 	}
 }
 
-// - - - - - - - - - - - - - - - - - - - - - - SAMPLE PACK
-#sample {
-	width: 80%;
-	margin: 0 auto;
-
-	margin-top:25px;
-	border: 1px solid $green;
-	border-radius: 10px;
-	@media screen and (max-width: 768px){
-		width:100%;
-		border: none;
-	}
-}
-.sample-desc {
-	width:60%;
-	display: inline-block;
-	text-align: justify;
-	vertical-align: top;
-	@media screen and (max-width:520px){
-		display: block;
-		width: 100%;
-	}
-	@media screen and (min-width:1044px){
-		p {
-			font-size: 20px;
-		}
-	}
-}
-.sample-img {
-	display: inline-block;
-	width: 34%;
-	margin-left: 5%;
-	text-align: center;
-	vertical-align: top;
-	@media screen and (max-width:520px){
-		display: block;
-		width: 100%;
-		margin: 0;
-	}
-	img {
-		margin: 0 auto;
-		transform: scale(.75,.75);
-		@media screen and (min-width:521px){
-			display: block;
-			transform: scale(.95,.95);
-		}
-	}// img
-	.purchase {
-		display: block;
-		margin: 1em auto;
-		padding: 15px;
-		border-radius: 5px;
-		background: $aqua;
-		color: $white;
-		font-family: $fontTitle;
-		text-transform: uppercase;
-		&:hover {
-			background: darken($aqua, 5%);
-			color: darken($white, 5%);
-			text-decoration: none;
-		}
-	}// .purchase
-}// .sample-img
-
 // - - - - - - - - - - - - - - - - - - - - - - PRICING
 #pricing {
 	background: $green;
@@ -579,18 +515,6 @@ ul.tabs li.current {
 		color: $aqua;
 	}
 }
-footer {
-	.disclaimer {
-		margin: 10px auto;
-		padding: 10px;
-		color: lighten($charcoal,20%);
-		font-style: italic;
-		background: darken($charcoal, 10%);
-	@media screen and (min-width: 530px){
-		max-width: 75%;
-		}
-	}// .disclaimer
-}// footer
 // - - - - - - - - - - - - - - - PATIENT SURVEY - - - -
 .patient-survey {
 	margin: 0 auto;

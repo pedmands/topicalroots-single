@@ -190,62 +190,6 @@ ul.tabs li.current:before {
     .tab-content.current {
       padding: 10px 0; } }
 
-#sample {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 25px;
-  border: 1px solid #8FB168;
-  border-radius: 10px; }
-  @media screen and (max-width: 768px) {
-    #sample {
-      width: 100%;
-      border: none; } }
-
-.sample-desc {
-  width: 60%;
-  display: inline-block;
-  text-align: justify;
-  vertical-align: top; }
-  @media screen and (max-width: 520px) {
-    .sample-desc {
-      display: block;
-      width: 100%; } }
-  @media screen and (min-width: 1044px) {
-    .sample-desc p {
-      font-size: 20px; } }
-
-.sample-img {
-  display: inline-block;
-  width: 34%;
-  margin-left: 5%;
-  text-align: center;
-  vertical-align: top; }
-  @media screen and (max-width: 520px) {
-    .sample-img {
-      display: block;
-      width: 100%;
-      margin: 0; } }
-  .sample-img img {
-    margin: 0 auto;
-    transform: scale(0.75, 0.75); }
-    @media screen and (min-width: 521px) {
-      .sample-img img {
-        display: block;
-        transform: scale(0.95, 0.95); } }
-  .sample-img .purchase {
-    display: block;
-    margin: 1em auto;
-    padding: 15px;
-    border-radius: 5px;
-    background: #89a9d5;
-    color: #fff;
-    font-family: "Oswald";
-    text-transform: uppercase; }
-    .sample-img .purchase:hover {
-      background: #769bce;
-      color: #f2f2f2;
-      text-decoration: none; }
-
 #pricing {
   background: #8FB168;
   background-image: url("images/pricing_bg.jpg");
@@ -495,16 +439,6 @@ ul.tabs li.current:before {
   content: '\f0d7';
   margin-right: 6px;
   color: #89a9d5; }
-
-footer .disclaimer {
-  margin: 10px auto;
-  padding: 10px;
-  color: #666666;
-  font-style: italic;
-  background: #1a1a1a; }
-  @media screen and (min-width: 530px) {
-    footer .disclaimer {
-      max-width: 75%; } }
 
 .patient-survey {
   margin: 0 auto;
