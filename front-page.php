@@ -116,8 +116,9 @@ get_header(); ?>
 		  </tr>
 		 </table>
 	  	<p>*mg Phytocannabinoids (m/v)</p>
+
 	  	<a id="buy-cannabis" class="buy-now">Buy Now</a>
-	  	<p>Please Contact Us for wholesale pricing</p>
+	  	<p>Please <a href="contact-us">Contact Us</a> for wholesale pricing</p>
   	</div>
 	  
   	<div id="non-cannabis-pricing" class="pricing-chart">
@@ -130,11 +131,10 @@ get_header(); ?>
 		    <td class="tg-cell">$12 each</td>
 		  </tr>
 	    </table>
+
 	  	<a id="buy-non-cannabis" class="buy-now">Buy Now</a>
-	  	<p>Please Contact Us for wholesale pricing</p>
+	  	<p>Please <a href="contact-us">Contact Us</a> for wholesale pricing</p>
   	</div>
-	  
-	
 	<h2 class="section-title">Free Delivery!</h2>
 	<h4>There is no charge for deliveries throughout southern Maine with a minimum purchase of $50.</h4>
 	<h4>Deliveries are made Wednesdays and Sundays 8am-8pm.</h4>

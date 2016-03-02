@@ -224,8 +224,12 @@ ul.tabs li.current {
 
 // - - - - - - - - - - - - - - - - - - - - - - PRICING
 #pricing {
+	a {
+	color:$white;
+	text-decoration: underline;
+	}
 	background: $green;
-	background-image: url('images/pricing_bg.jpg');
+	background-image: url('images/product01.jpg');
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -247,7 +251,7 @@ ul.tabs li.current {
 	}
 }// #pricing
 .pricing-chart {
-	background: rgba($charcoal, .75);
+	background: rgba($charcoal, .5);
 	padding: 15px;
 	margin: 25px auto;
 	max-width: 920px;
